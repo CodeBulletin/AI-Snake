@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\sfhelper">
+      <UniqueIdentifier>{42077689-ae52-49a7-81e8-f2c48c6297d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Snake">
+      <UniqueIdentifier>{8dfaab03-7699-4c1a-ace6-1346e7694659}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Algorithms">
+      <UniqueIdentifier>{2a09d15d-0532-4811-ba27-8ab0c8addf95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Helper">
+      <UniqueIdentifier>{7e56d57b-ae58-4a96-b997-8ada0283822c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Solvers">
+      <UniqueIdentifier>{413a6a07-30b8-4981-b042-f1cd4e31030f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FFNN">
+      <UniqueIdentifier>{055a7c11-a8d5-435d-a348-481a3b5c91dd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sfh_random.hpp">
+      <Filter>Header Files\sfhelper</Filter>
+    </ClInclude>
+    <ClInclude Include="sfh_color.hpp">
+      <Filter>Header Files\sfhelper</Filter>
+    </ClInclude>
+    <ClInclude Include="sfh_math.hpp">
+      <Filter>Header Files\sfhelper</Filter>
+    </ClInclude>
+    <ClInclude Include="sfh_shape.hpp">
+      <Filter>Header Files\sfhelper</Filter>
+    </ClInclude>
+    <ClInclude Include="sfhelper.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseApp.hpp">
+      <Filter>Header Files\Solvers</Filter>
+    </ClInclude>
+    <ClInclude Include="AlgorMode.hpp">
+      <Filter>Header Files\Solvers</Filter>
+    </ClInclude>
+    <ClInclude Include="HamiltonianMode.hpp">
+      <Filter>Header Files\Solvers</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerMode.hpp">
+      <Filter>Header Files\Solvers</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomMode.hpp">
+      <Filter>Header Files\Solvers</Filter>
+    </ClInclude>
+    <ClInclude Include="Cell.hpp">
+      <Filter>Header Files\Snake</Filter>
+    </ClInclude>
+    <ClInclude Include="Snake.hpp">
+      <Filter>Header Files\Snake</Filter>
+    </ClInclude>
+    <ClInclude Include="hamiltonian.hpp">
+      <Filter>Header Files\Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="PrimsAlgorithm.hpp">
+      <Filter>Header Files\Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="file_writer.hpp">
+      <Filter>Header Files\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="GA_FFNN.hpp">
+      <Filter>Header Files\FFNN</Filter>
+    </ClInclude>
+    <ClInclude Include="AgentsFFNN.hpp">
+      <Filter>Header Files\FFNN</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
